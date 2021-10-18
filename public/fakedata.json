@@ -2,66 +2,66 @@
   {
     "_id": 1,
     "picture": "https://i.ibb.co/9YgrLPb/birth.webp",
-    "category": "general",
+    "category": "General",
     "price": 6.99,
-    "name": "Birth",
-    "about": "Voluptate qui proident est pariatur eu excepteur in dolor aute ea anim. Veniam et anim dolor esse do ad pariatur elit aliqua amet ut. Ex tempor consequat nisi esse ut fugiat anim. Aliqua minim non labore cupidatat esse ea quis ea officia ipsum non cupidatat aute.\r\n"
+    "name": "Gynecology",
+    "about": "Gynaecology or gynecology (see spelling differences) is the medical practice dealing with the health of the female reproductive system. ... The term means The Science of Women. Its counterpart is andrology, which deals with medical issues specific to the male reproductive system.\r\n"
   },
   {
     "_id": 2,
     "picture": "https://i.ibb.co/ThCqV6h/cardio.webp",
-    "category": "special",
+    "category": "Special",
     "price": 9.99,
     "name": "Cardiology",
-    "about": "Quis ad dolore minim pariatur reprehenderit magna dolore ex deserunt Lorem laborum voluptate. Mollit qui reprehenderit dolore aliqua veniam fugiat occaecat in exercitation eu do. Cupidatat irure proident amet mollit Lorem minim dolore et. Aliquip elit do proident non adipisicing amet culpa aute quis nisi mollit consectetur quis. Magna nisi eu aliquip veniam esse nisi id. Sunt adipisicing qui pariatur sunt est occaecat ea velit culpa occaecat amet.\r\n"
+    "about": "A cardiologist will review a patient’s medical history and carry out a physical examination.They may check the person’s weight, heart, lungs, blood pressure, and blood vessels, and carry out some tests. An interventional cardiologist may carry out procedures such as angioplasties, stenting, valvuloplasties, congenital heart defect corrections, and coronary thrombectomies.\r\n"
   },
   {
     "_id": 3,
     "picture": "https://i.ibb.co/mNk2JqV/dental.webp",
-    "category": "general",
+    "category": "General",
     "price": 10.99,
     "name": "Dental",
-    "about": "Tempor mollit nulla non ad veniam aliqua laborum fugiat. Enim aliqua incididunt aute fugiat voluptate qui. Lorem nulla proident elit ipsum ad aliqua fugiat non quis et nostrud. Aliqua cillum excepteur consequat sunt reprehenderit ad. Veniam ex excepteur Lorem eu deserunt reprehenderit duis aliqua culpa sit et dolore voluptate consequat. Ipsum nulla consequat id incididunt laborum commodo aliqua est sunt cupidatat Lorem non. Aliqua qui ea ad proident labore ex pariatur fugiat irure minim.\r\n"
+    "about": "Dentistry, also known as dental medicine and oral medicine, is a branch of medicine that consists of the study, diagnosis, prevention, and treatment of diseases, disorders, and conditions of the oral cavity (the mouth), commonly in the dentition (development and arrangement of teeth) as well as the oral mucosa, and of adjacent and related structures and tissues, particularly in associated maxillofacial (jaw and facial) area. The field of dentistry or dental medicine includes teeth as well as other aspects of the craniofacial complex including the temporomandibular joint and other supporting, muscular, lymphatic, nervous, vascular, and anatomical structures. The practitioner is called a dentist.\r\n"
   },
   {
     "_id": 4,
     "picture": "https://i.ibb.co/Qd17J8w/neurology.webp",
-    "category": "special",
+    "category": "Special",
     "price": 8.99,
     "name": "Neurology",
-    "about": "Cupidatat exercitation velit consectetur commodo labore et reprehenderit nostrud ex veniam pariatur. Qui ullamco officia enim elit commodo Lorem voluptate laborum. In amet veniam commodo officia non sint labore excepteur elit tempor.\r\n"
+    "about": "Neurology is the branch of medicine concerned with the study and treatment of disorders of the nervous system. The nervous system is a complex, sophisticated system that regulates and coordinates body activities. It has two major divisions: Central nervous system: the brain and spinal cord.\r\n"
   },
   {
     "_id": 5,
     "picture": "https://i.ibb.co/G2dtM5B/prosthetic.webp",
-    "category": "genral",
+    "category": "General",
     "price": 19.99,
     "name": "Prostheses",
-    "about": "Commodo culpa labore incididunt exercitation magna Lorem aliqua fugiat ex ipsum. Amet ea sit eu sint sint aliquip quis tempor. Sint excepteur sint ipsum eiusmod. In cupidatat do eu dolore qui exercitation sit magna nostrud nulla anim. Ipsum fugiat Lorem elit veniam ea et sit occaecat laborum fugiat nisi. Voluptate excepteur enim pariatur amet aliqua magna eiusmod anim ex nisi.\r\n"
+    "about": "A prosthesis is a device designed to replace a missing part of the body or to make a part of the body work better. Diseased or missing eyes, arms, hands, legs, or joints are commonly replaced by prosthetic devices. False teeth are known as dental prostheses.\r\n"
   },
   {
     "_id": 6,
     "picture": "https://i.ibb.co/H7p7H4B/pulmonary.webp",
-    "category": "special",
+    "category": "Special",
     "price": 3.99,
     "name": "Pulmonary",
-    "about": "Cillum ex voluptate deserunt ad enim reprehenderit irure do laborum reprehenderit ad magna. Eiusmod minim adipisicing enim est minim commodo nostrud consectetur. Tempor commodo ullamco ullamco aute fugiat enim veniam labore commodo anim ea sint. Voluptate et nostrud excepteur pariatur excepteur minim occaecat.\r\n"
+    "about": "Pulmonary hypertension is high blood pressure in the blood vessels that supply the lungs (pulmonary arteries). It's a serious condition that can damage the right side of the heart. The walls of the pulmonary arteries become thick and stiff, and cannot expand as well to allow blood through.\r\n"
   },
   {
     "_id": 7,
     "picture": "https://i.ibb.co/cJv9bw7/traumology.webp",
-    "category": "general",
+    "category": "General",
     "price": 22.99,
     "name": "Traumatology",
-    "about": "Id dolore officia velit eu qui ea deserunt non cillum pariatur et. Magna ea ut exercitation id anim eiusmod aliqua. Anim ea occaecat ex magna ipsum sit voluptate exercitation voluptate. Nostrud pariatur cupidatat minim excepteur non sint qui reprehenderit velit. Consectetur nostrud mollit in consectetur deserunt magna nostrud in enim nulla ullamco.\r\n"
+    "about": "Traumatology: The branch of surgery that deals with injured patients, usually on an emergency basis. Patients who have suffered significant physical trauma, as from a car accident, may be cared for in a traumatology unit.\r\n"
   },
   {
     "_id": 8,
     "picture": "https://i.ibb.co/wgtWhxX/xray.webp ",
-    "category": "general",
+    "category": "General",
     "price": 9.99,
     "name": "Xray",
-    "about": "Dolor exercitation consequat deserunt nulla et mollit occaecat incididunt mollit est tempor aliquip consectetur. Reprehenderit adipisicing ut do mollit sit ex nostrud id id ullamco. Quis quis laboris sunt do voluptate non deserunt aliquip. Aliqua excepteur consectetur ex officia exercitation qui tempor et qui amet. Id cillum commodo quis voluptate anim. Consectetur laboris nostrud nostrud minim ea consequat adipisicing eu laboris nostrud irure consequat ipsum dolore.\r\n"
+    "about": "X-rays are a type of radiation called electromagnetic waves. X-ray imaging creates pictures of the inside of your body. The images show the parts of your body in different shades of black and white. ... The most familiar use of x-rays is checking for fractures (broken bones), but x-rays are also used in other ways.\r\n"
   },
   {
     "_id": 9,
