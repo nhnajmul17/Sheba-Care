@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import Footer from '../Shared/Footer/Footer';
 import Department from './Department/Department';
 
 const Departments = () => {
@@ -21,6 +22,7 @@ const Departments = () => {
                     ></Department>)
                 }
             </div>
+            <Footer></Footer>
         </div>
     );
 };
