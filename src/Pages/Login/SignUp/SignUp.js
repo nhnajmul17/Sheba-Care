@@ -5,17 +5,19 @@ import { faGoogle, faFacebook, faGithub } from '@fortawesome/free-brands-svg-ico
 import useAuth from '../../../Hooks/useAuth';
 
 const SignUp = () => {
-    const { googleSignIn, githubSignIn, handleEmail, handlePassword, handleRegister, error } = useAuth()
+    const { googleSignIn, githubSignIn, handleEmail, handlePassword, handleRegister, error, handleName } = useAuth()
 
     return (
         <div>
             <div style={{ height: '100vh' }}>
                 <h2>Create a new Account</h2>
                 <form action="">
+                    <label htmlFor="">Name</label><br />
+                    <input onBlur={handleName} type="text" name="" id="" placeholder='Your Name' /><br />
                     <label htmlFor="">Email</label><br />
-                    <input onBlur={handleEmail} type="email" name="" id="" /><br />
+                    <input onBlur={handleEmail} type="email" name="" id="" placeholder='Your Email' /><br />
                     <label htmlFor="">Password</label><br />
-                    <input onBlur={handlePassword} type="password" name="" id="" /><br /><br />
+                    <input onBlur={handlePassword} type="password" name="" id="" placeholder='Your Password' /><br /><br />
                     <input onClick={handleRegister} type="submit" value="Register" />
 
                 </form>
@@ -30,7 +32,7 @@ const SignUp = () => {
                 <p className='text-danger'>{error}</p>
             </div>
 
-        </div>
+        </div >
     );
 };
 

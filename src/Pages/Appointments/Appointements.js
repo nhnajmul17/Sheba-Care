@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Button, Col, Form, Row } from 'react-bootstrap';
 import { useParams } from 'react-router';
+import useAuth from '../../Hooks/useAuth';
 
 const Appointements = () => {
     const { id } = useParams();
@@ -14,37 +15,58 @@ const Appointements = () => {
     }, [])
 
     // const exactItem = item.filter(itm => itm._id == id)
+    const { user } = useAuth();
 
     return (
         <div className='p-5'>
             <h1 className='text-info mb-5'> Appointments Form</h1>
             <Form>
-                <Form.Group as={Row} className="mb-3" controlId="formPlaintextEmail">
-                    <Form.Label column sm="2">Department: </Form.Label>
-                    <Col sm="10">
-                        <Form.Control plaintext readOnly defaultValue={item.name} />
-                    </Col>
-                </Form.Group>
-                <Form.Group as={Row} className="mb-3" controlId="formPlaintextEmail">
-                    <Form.Label column sm="2">Doctors Fee:$ </Form.Label>
-                    <Col sm="10">
-                        <Form.Control plaintext readOnly defaultValue={item.price} />
-                    </Col>
-                </Form.Group>
+
                 <Row>
-                    <Form.Label>Patient Name</Form.Label>
+
                     <Col>
-                        <Form.Control placeholder="First name" />
+                        <Form.Label> Department</Form.Label>
+                        <Form.Control placeholder=" Depatment" defaultValue={item.name} />
                     </Col>
                     <Col>
-                        <Form.Control placeholder="Last name" />
+                        <Form.Label>Doctor's Name </Form.Label>
+
+                        <Form.Control placeholder="Doctor" defaultValue={item.doctor} />
+                    </Col>
+                </Row>
+                <br /><br />
+                <Row>
+
+                    <Col>
+                        <Form.Label> Doctor's Fee's</Form.Label>
+                        <Form.Control placeholder="Doctor's Fee's" defaultValue={item.price} />
+                    </Col>
+                    <Col>
+                        <Form.Label>Doctor's Speciality </Form.Label>
+
+                        <Form.Control placeholder="Doctor" defaultValue={item.speciality} />
+                    </Col>
+                </Row>
+
+
+                <br /><br />
+                <Row>
+
+                    <Col>
+                        <Form.Label> Name</Form.Label>
+                        <Form.Control placeholder=" Name" defaultValue={user.displayName} />
+                    </Col>
+                    <Col>
+                        <Form.Label>Age</Form.Label>
+
+                        <Form.Control placeholder="Age" />
                     </Col>
                 </Row>
                 <br /><br />
                 <Row className="mb-3">
                     <Form.Group as={Col} controlId="formGridEmail">
                         <Form.Label>Email</Form.Label>
-                        <Form.Control type="email" placeholder="Enter email" />
+                        <Form.Control type="email" placeholder="Enter email " defaultValue={user.email} />
                     </Form.Group>
 
                     <Form.Group as={Col} controlId="formGridPassword">
