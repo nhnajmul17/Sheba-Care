@@ -42,6 +42,9 @@ function App() {
             <PrivateRoute path='/appointment/:id'>
               <Appointements></Appointements>
             </PrivateRoute>
+            <PrivateRoute path='/appointment'>
+              <Appointements></Appointements>
+            </PrivateRoute>
             <Route path='/doctors'>
               <AllDoctors></AllDoctors>
             </Route>

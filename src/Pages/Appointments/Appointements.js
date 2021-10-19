@@ -26,12 +26,12 @@ const Appointements = () => {
 
                     <Col>
                         <Form.Label> Department</Form.Label>
-                        <Form.Control placeholder=" Depatment" defaultValue={item.name} />
+                        <Form.Control placeholder=" Depatment" defaultValue={item?.name} />
                     </Col>
                     <Col>
                         <Form.Label>Doctor's Name </Form.Label>
 
-                        <Form.Control placeholder="Doctor" defaultValue={item.doctor} />
+                        <Form.Control placeholder="Doctor" defaultValue={item?.doctor} />
                     </Col>
                 </Row>
                 <br /><br />
@@ -39,12 +39,12 @@ const Appointements = () => {
 
                     <Col>
                         <Form.Label> Doctor's Fee's</Form.Label>
-                        <Form.Control placeholder="Doctor's Fee's" defaultValue={item.price} />
+                        <Form.Control placeholder="Doctor's Fee's" defaultValue={item?.price} />
                     </Col>
                     <Col>
                         <Form.Label>Doctor's Speciality </Form.Label>
 
-                        <Form.Control placeholder="Doctor" defaultValue={item.speciality} />
+                        <Form.Control placeholder="Doctor" defaultValue={item?.speciality} />
                     </Col>
                 </Row>
 
@@ -54,7 +54,7 @@ const Appointements = () => {
 
                     <Col>
                         <Form.Label> Name</Form.Label>
-                        <Form.Control placeholder=" Name" defaultValue={user.displayName} />
+                        <Form.Control placeholder=" Name" defaultValue={user?.displayName} />
                     </Col>
                     <Col>
                         <Form.Label>Age</Form.Label>
@@ -66,7 +66,7 @@ const Appointements = () => {
                 <Row className="mb-3">
                     <Form.Group as={Col} controlId="formGridEmail">
                         <Form.Label>Email</Form.Label>
-                        <Form.Control type="email" placeholder="Enter email " defaultValue={user.email} />
+                        <Form.Control type="email" placeholder="Enter email " defaultValue={user?.email} />
                     </Form.Group>
 
                     <Form.Group as={Col} controlId="formGridPassword">
