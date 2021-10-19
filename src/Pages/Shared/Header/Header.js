@@ -30,6 +30,7 @@ const Header = () => {
                             <Nav.Link as={HashLink} to="/home#home">Home</Nav.Link>
                             <Nav.Link as={HashLink} to="/home#features">Features</Nav.Link>
                             <Nav.Link as={HashLink} to="/home#services">Services</Nav.Link>
+                            <Nav.Link as={HashLink} to="/home#experts">Experts</Nav.Link>
                             <NavDropdown title="More" id="collasible-nav-dropdown">
                                 <NavDropdown.Item as={Link} to="/departments">Departments</NavDropdown.Item>
                                 <NavDropdown.Item as={Link} to="/doctors">Doctors</NavDropdown.Item>

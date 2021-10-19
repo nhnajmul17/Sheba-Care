@@ -19,8 +19,8 @@ const Service = (props) => {
                     <Card.Body>
                         <Card.Title className='text-secondary'>Department of {name}</Card.Title>
                         <Card.Text> Service Type: {category} </Card.Text>
-                        <Link to={`/appointment/${_id}`}>
-                            <Button variant="primary">Get Appointment</Button>
+                        <Link to={`/details/${_id}`}>
+                            <Button variant="primary">Get Details</Button>
                         </Link>
                     </Card.Body>
                 </Card>

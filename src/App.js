@@ -18,6 +18,7 @@ import AboutUs from './Pages/Aboutus/AboutUs';
 import Faq from './Pages/Faq/Faq';
 import Contact from './Pages/Contact/Contact';
 import AllDoctors from './Pages/AllDoctors/AllDoctors/AllDoctors';
+import ServiceDetails from './Pages/ServiceDetails/ServiceDetails';
 
 function App() {
   return (
@@ -35,6 +36,9 @@ function App() {
             <Route path='/departments'>
               <Departments></Departments>
             </Route>
+            <PrivateRoute path='/details/:id'>
+              <ServiceDetails></ServiceDetails>
+            </PrivateRoute>
             <PrivateRoute path='/appointment/:id'>
               <Appointements></Appointements>
             </PrivateRoute>

@@ -17,8 +17,8 @@ const Department = (props) => {
                     <div className='col-lg-8 col-sm-12'>
                         <h1> Department of: {name}  </h1>
                         <p className='text-secondary'>{about}</p>
-                        <Link to={`/appointment/${_id}`}>
-                            <button className='btn btn-secondary'>Get Appointment</button>
+                        <Link to={`/details/${_id}`}>
+                            <button className='btn btn-secondary'>Know More</button>
                         </Link>
                     </div>
 

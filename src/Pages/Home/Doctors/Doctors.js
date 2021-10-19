@@ -11,7 +11,7 @@ const Doctors = () => {
             .then(data => setDoctors(data.slice(13, 17)))
     }, [])
     return (
-        <div className='mt-5'>
+        <div className='mt-5' id='experts'>
             <h1 className='text-info'>Meet Our Experienced Doctors</h1>
             <div className='p-5'>
                 <Row xs={1} md={2} className="g-4">

@@ -8,7 +8,7 @@ const Services = () => {
     useEffect(() => {
         fetch('./fakedata.json')
             .then(res => res.json())
-            .then(data => setServices(data.slice(0, 4)))
+            .then(data => setServices(data.slice(0, 6)))
     }, [])
 
     return (
@@ -16,7 +16,7 @@ const Services = () => {
             <h2 className='text-info'>Services</h2>
             <hr />
             <div className='p-4'>
-                <Row xs={1} md={4} className="g-4">
+                <Row xs={1} md={3} className="g-4">
                     {
                         services.map(service => <Service
                             key={service._id}
