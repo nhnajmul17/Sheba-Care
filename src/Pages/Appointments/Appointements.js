@@ -70,8 +70,8 @@ const Appointements = () => {
                     </Form.Group>
 
                     <Form.Group as={Col} controlId="formGridPassword">
-                        <Form.Label>Password</Form.Label>
-                        <Form.Control type="password" placeholder="Password" />
+                        <Form.Label>Gender</Form.Label>
+                        <Form.Control type="text" placeholder="Male/Female" />
                     </Form.Group>
                 </Row>
                 <br />
