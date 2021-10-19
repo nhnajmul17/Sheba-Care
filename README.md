@@ -1,3 +1,22 @@
+
+#Sheba Care-we care
+Live Server of this project(https://sheba-care.web.app/)
+
+Sheba Care is the one of the largest medical services provider organization in private sector of the country. It is been pioneer in introducing world latest medical equipments and advanced technology to provide round the clock medical investigations and consultancy services.
+
+Our Services includes-
+
+*Out door basis treatment by renowned General Practitioners, Consultants and Professors in different medical fields.
+*To promote Health Education & Medical Services.
+*Day care Centre for follow-up cardiac renal and oncology patients.
+*To build a full fledged specialized (Tertiary) Hospital.
+*Set up Satellite collection Centre.
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
