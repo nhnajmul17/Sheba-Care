@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Row } from 'react-bootstrap';
 import Feacture from './Feature/Feacture';
+import './Fetures.css'
 
 
 const Features = () => {
@@ -14,8 +15,8 @@ const Features = () => {
         <div id='features' className='mt-4'>
             <h2 className='text-info'>Features</h2>
             <hr />
-            <div className='p-5'>
-                <Row xs={1} md={3} className="g-4">
+            <div className='p-5 '>
+                <Row xs={1} md={3} className="g-4 ">
                     {
                         features.map(feature => <Feacture
                             key={feature._id}
