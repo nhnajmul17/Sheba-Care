@@ -1,0 +1,12 @@
+
+.card:hover{
+    background-color: rgb(177, 230, 227);
+  
+}
+
+.card:hover .img{
+    transform: scale(.8);
+    overflow: hidden;
+    transition: 1.5s;
+    
+}
