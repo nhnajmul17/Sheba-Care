@@ -8,12 +8,12 @@ const Doctor = (props) => {
     return (
         <div>
             <Col>
-                <Card>
-                    <div className='d-flex'>
-                        <div >
+                <Card className='container h-75'>
+                    <div className='row'>
+                        <div className='col-lg-6 col-sm-12'>
                             <Card.Img className='h-100 w-100 ' variant="top" src={picture} />
                         </div>
-                        <div className='p-5' >
+                        <div className='col-lg-6 col-sm-12 p-5' >
                             <Card.Body>
                                 <Card.Title>{doctor}</Card.Title>
                                 <Card.Text>Speciality: {speciality} </Card.Text>

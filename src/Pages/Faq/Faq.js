@@ -6,7 +6,7 @@ import Footer from '../Shared/Footer/Footer';
 const Faq = () => {
     return (
         <div>
-            <div style={{ height: '100vh' }}>
+            <div >
                 <h1 className=' fw-bold text-info'>Faq</h1>
                 <div className='m-5 p-5'>
                     <Accordion defaultActiveKey="0" flush>
