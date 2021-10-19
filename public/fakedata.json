@@ -73,8 +73,8 @@
     "_id": 8,
     "picture": "https://i.ibb.co/wgtWhxX/xray.webp ",
     "category": "General",
-    "doctor": "Dr. Jaka Alex",
-    "speciality": "Gynecologist",
+    "doctor": "Dr. Linda Jackson",
+    "speciality": "Therapist",
     "price": "$9.99",
     "name": "Xray",
     "about": "X-rays are a type of radiation called electromagnetic waves. X-ray imaging creates pictures of the inside of your body. The images show the parts of your body in different shades of black and white. ... The most familiar use of x-rays is checking for fractures (broken bones), but x-rays are also used in other ways.\r\n"
@@ -168,5 +168,35 @@
     "price": "$9.99",
     "name": "Prostheses",
     "about": "Aliqua culpa veniam magna veniam minim labore reprehenderit dolore pariatur id mollit veniam exercitation fugiat. Cillum aliquip quis pariatur reprehenderit velit nisi cupidatat proident ea dolore exercitation labore culpa laboris. Ex commodo officia tempor enim quis est duis pariatur tempor do exercitation. Duis commodo ea laborum dolore cillum aliqua ex nostrud. Aute pariatur labore reprehenderit laborum.\r\n"
+  },
+  {
+    "_id": 19,
+    "picture": "https://i.ibb.co/Xp57Tjj/doc-6.jpg",
+    "doctor": "Dr. Sandra Walker",
+    "speciality": "Neurologist",
+    "category": "Special",
+    "price": "$6.99",
+    "name": "Neurology",
+    "about": "Cupidatat ad ad officia aliquip dolore excepteur fugiat consequat dolor est adipisicing deserunt. Eiusmod dolor cillum consectetur tempor. Id et ad exercitation ad ut reprehenderit officia. Dolore fugiat non veniam Lorem dolor dolor ad eiusmod non tempor dolore officia Lorem cillum. Sunt enim sit dolor irure magna pariatur exercitation occaecat esse commodo ex consequat. Et esse sunt aliqua mollit non cupidatat minim.\r\n"
+  },
+  {
+    "_id": 20,
+    "picture": "https://i.ibb.co/JqmM53Z/doc-7.jpg",
+    "doctor": "Dr.Fred Muller",
+    "speciality": "Cardiologist",
+    "category": "Special",
+    "price": "$10.99",
+    "name": "Cardiology",
+    "about": "Sit dolore tempor veniam duis et adipisicing irure fugiat eiusmod amet reprehenderit magna. Qui est aliqua sint sit ex cupidatat dolor veniam do exercitation pariatur. Amet consequat voluptate nisi dolor sint ea laboris deserunt do quis. Cupidatat veniam veniam eiusmod proident ea occaecat reprehenderit amet ex ea. Excepteur ullamco esse sunt dolor voluptate dolor. Labore voluptate duis esse nisi fugiat occaecat eu non eu esse labore cillum reprehenderit. Occaecat deserunt et ea sit tempor reprehenderit incididunt ullamco Lorem cillum magna commodo eiusmod.\r\n"
+  },
+  {
+    "_id": 21,
+    "picture": "https://i.ibb.co/DDLhtS8/doc-8.jpg",
+    "doctor": "Dr. Linda Jackson",
+    "speciality": "Therapist",
+    "category": "Special",
+    "price": "$10.99",
+    "name": "Radiology",
+    "about": "Sit dolore tempor veniam duis et adipisicing irure fugiat eiusmod amet reprehenderit magna. Qui est aliqua sint sit ex cupidatat dolor veniam do exercitation pariatur. Amet consequat voluptate nisi dolor sint ea laboris deserunt do quis. Cupidatat veniam veniam eiusmod proident ea occaecat reprehenderit amet ex ea. Excepteur ullamco esse sunt dolor voluptate dolor. Labore voluptate duis esse nisi fugiat occaecat eu non eu esse labore cillum reprehenderit. Occaecat deserunt et ea sit tempor reprehenderit incididunt ullamco Lorem cillum magna commodo eiusmod.\r\n"
   }
 ]

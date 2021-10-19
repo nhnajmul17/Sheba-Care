@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Row } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 import Doctor from './Doctor/Doctor';
 
 const Doctors = () => {
@@ -7,7 +8,7 @@ const Doctors = () => {
     useEffect(() => {
         fetch('/fakedata.json')
             .then(res => res.json())
-            .then(data => setDoctors(data.slice(13, 18)))
+            .then(data => setDoctors(data.slice(13, 17)))
     }, [])
     return (
         <div className='mt-5'>
@@ -21,6 +22,9 @@ const Doctors = () => {
                         ></Doctor>)
                     }
                 </Row>
+                <Link to='/doctors'>
+                    <button className='btn btn-secondary mt-3'>See more Doctors</button>
+                </Link>
             </div>
 
         </div>
