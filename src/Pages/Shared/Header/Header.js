@@ -41,7 +41,8 @@ const Header = () => {
                             </NavDropdown>
                         </Nav>
                         <Nav>
-                            {user?.email && <p className='me-3'>Sign in as: {user?.displayName}</p>}
+                            {user?.email && <p className='me-3 fw-bold'>Users Name : {user?.displayName}</p>}
+                            {user?.email && <p className='me-3 fw-bold'>Email: {user?.email}</p>}
 
                             {user?.email ? <button onClick={logOut}>Logout</button> : <Nav.Link as={Link} to="/login"> <button className='btn btn-dark'>Login</button></Nav.Link>}
                             {user?.email ? <p>{' '}</p> : <Nav.Link as={Link} to="/signup"><button className='btn btn-dark'>Signup</button></Nav.Link>
