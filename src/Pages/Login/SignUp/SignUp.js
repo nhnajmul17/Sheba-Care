@@ -5,7 +5,7 @@ import { faGoogle, faFacebook, faGithub } from '@fortawesome/free-brands-svg-ico
 import useAuth from '../../../Hooks/useAuth';
 
 const SignUp = () => {
-    const { googleSignIn, githubSignIn, handleEmail, handlePassword, handleRegister, error, handleName } = useAuth()
+    const { user, googleSignIn, githubSignIn, handleEmail, handlePassword, handleRegister, error, handleName } = useAuth()
 
     return (
         <div>
@@ -21,6 +21,9 @@ const SignUp = () => {
                     <input onClick={handleRegister} type="submit" value="Register" />
 
                 </form>
+                <br />
+                {user?.email && <p className='text-info'>A  email verification link is sent in your email</p>}
+
                 <br /><br />
                 <p>   Already have an account? <Link to='/login'>Login Now </Link></p>
                 <p>Or SignIn with</p>
